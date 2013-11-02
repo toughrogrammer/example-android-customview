@@ -15,10 +15,8 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
     
-    <com.example.customviewproject.PieChart 
-        custom:showText="true"
-        custom:labelPosition="left"
-        android:layout_below="@id/title"
-        />
+    <com.example.customviewproject.MyFolder 
+        custom:title="새폴더"
+        custom:count="0" />
 
 </RelativeLayout>
