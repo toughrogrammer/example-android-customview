@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PieChart">
+        <attr name="showText" format="boolean" />
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="MyFolder">
+        <attr name="title" format="string" />
+        <attr name="title_padding" format="integer"/>
+        
+        <attr name="count" format="string" />
+    </declare-styleable>
+
+</resources>
